@@ -17,6 +17,7 @@ this.messageArray =  this.service.conversation.asObservable()
 )
 
 }
+disable = true;
 message = "";
 messageArray:Observable<Message[]>
   constructor(private service:ChatServiceService){
