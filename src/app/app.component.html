@@ -1,10 +1,13 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="content">
-
+  <h1 class="title">Angular Dialogflow Chat Bot</h1>
+<div class="chatlogs">
 <div  *ngFor="let mes of messageArray | async" >
-<p class="bot" [ngStyle]="{backgroundColor:mes.type == 'bot' ? 'blueviolet' : 'whitesmoke',color:mes.type == 'bot' ? 'white' : 'black'}" >{{mes.message}}</p>
+<p class="bot" [ngStyle]="{backgroundColor:mes.type == 'bot' ? 'blueviolet' : 'whitesmoke',color:mes.type == 'bot' ? 'white' : 'black',float:mes.type == 'bot' ? 'left' : 'right'}" >{{mes.message}}</p>
 
 </div>
-<input class="input-box" [(ngModel)]="message" type="text">
-<button class="button" (click)="send()">send</button>
+</div>
+<input class="input-box" [(ngModel)]="message" type="text" placeholder="Enter your Message ....">
+<div><button class="button" (click)="send()">send</button>
+</div>
 </div>

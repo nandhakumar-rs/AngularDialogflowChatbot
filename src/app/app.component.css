@@ -8,16 +8,29 @@ margin-left: 30%;
     outline: none;
     padding: 5px;
     border:1px solid blueviolet;
+    font-family: 'Lato', sans-serif;
+    height: 25px;
+    font-size: 20px;
+
 
 }
+.title{
+    color: blueviolet;
+    margin-left: 5%;
+    font-family: 'Lato', sans-serif;
+}
 .button{
-    border-radius: 10px;
+    border-radius: 50px;
     background-color: blueviolet;
     color:white;
     outline: none;
-    margin-left: 10px;
-    padding :7px;
+    margin-top: 15px;
+    padding :4px;
     border:0.1px solid blueviolet;
+   float: left;
+   width: 50px;
+   height: 40px;
+   font-family: 'Lato', sans-serif;
 
 }
 
@@ -25,5 +38,17 @@ margin-left: 30%;
     border-radius: 50px;
     height: 15%;
     padding:25px;
-    width: 50%
+    width: 50%;
+    font-family: 'Lato', sans-serif;
+    margin: 5px;
+
 }
+
+.chatlogs{
+    height:500px;
+    width: 50%;
+    overflow-x:hidden;
+    overflow-y: scroll; 
+    margin-bottom: 15px;
+}
+
