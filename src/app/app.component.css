@@ -1,0 +1,29 @@
+.content{
+margin-left: 30%;
+}
+
+.input-box{
+    border-radius:5px;
+    width: 50%;
+    outline: none;
+    padding: 5px;
+    border:1px solid blueviolet;
+
+}
+.button{
+    border-radius: 10px;
+    background-color: blueviolet;
+    color:white;
+    outline: none;
+    margin-left: 10px;
+    padding :7px;
+    border:0.1px solid blueviolet;
+
+}
+
+.bot{
+    border-radius: 50px;
+    height: 15%;
+    padding:25px;
+    width: 50%
+}
